@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="liuyou:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/liuyou_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="liuyou" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="jspsmartupload.jar" module-name="liuyou" />
+          <element id="library" level="module" name="msbase.jar" module-name="liuyou" />
+          <element id="library" level="module" name="mssqlserver.jar" module-name="liuyou" />
+          <element id="library" level="module" name="msutil.jar" module-name="liuyou" />
+          <element id="library" level="module" name="mysql-connector-java-3.1.12-bin.jar" module-name="liuyou" />
+          <element id="library" level="project" name="tomcat-api" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="liuyou/web/Web" />
+    </root>
+  </artifact>
+</component>

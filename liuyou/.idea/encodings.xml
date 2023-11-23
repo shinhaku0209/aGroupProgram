@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/WebRoot/center.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/WebRoot/eWebEditor_V4.60/_example/example.css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/WebRoot/js/treemenu.js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/adminyanzheng(1).java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/adminyanzheng.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/jingdianxinxi_add_post.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/jingdianxinxi_updt_post.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/jiudianxinxi_add_post.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/jiudianxinxi_updt_post.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/jiudianyuding_add_post.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/jiudianyuding_updt_post.java" charset="GBK" />
+  </component>
+</project>

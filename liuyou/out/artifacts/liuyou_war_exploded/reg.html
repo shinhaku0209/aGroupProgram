@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>contact</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="Transit Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template,
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design"
+          name="keywords"/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <script type="text/javascript">
+        function up(tt) {
+            var pop = new Popup({contentType: 1, isReloadOnClose: false, width: 300, height: 50});
+            pop.setContent("contentUrl", "upload.jsp?Result=" + tt);
+            pop.setContent("title", "文件上传");
+            pop.build();
+            pop.show();
+        }
+    </script>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css'/>
+    <link href="css/lightbox.css" rel="stylesheet">
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+            });
+        });
+    </script>
+    <style>
+        form {
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+<body>
+<!-- banner -->
+<div class="banner">
+    <!-- container -->
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="index.html">Weihai</a>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+        <div class="top-nav">
+            <span class="menu">Menu</span>
+            <ul class="nav1">
+                <li><a class="active" href="index.html">Home page</a></li>
+                <li><a class="scroll" href="index.html">culture</a></li>
+                <li><a href="map.jsp">map search</a></li>
+                <li><a class="scroll" href="index.html">scence spot</a></li>
+                <li><a href="contact.html">login</a></li>
+            </ul>
+            <!-- script-for-menu -->
+            <script>
+                $("span.menu").click(function () {
+                    $("ul.nav1").slideToggle(300, function () {
+                        // Animation complete.
+                    });
+                });
+            </script>
+            <!-- /script-for-menu -->
+        </div>
+    </div>
+</div>
+<!-- //banner -->
+<div class="container">
+    <div class="contact-info">
+        <h3>Reg</h3>
+    </div>
+    <div class="mail-grids contact-form">
+        <form action="/YongHuZhuCeAddPost" method="post" name="formlog">
+            <input id="yonghuming" name="yonghuming" placeholder="Username" required="" type="text">
+            <input id="mima" name="mima" placeholder="Password" required="" type="text">
+            <input id="xingming" name="xingming" placeholder="name" required="" type="text">
+            <table>
+                <td style="font-family: 'Droid Sans Mono Slashed'">sex:</td>
+                <td>
+                    <select id="xingbie" name="xingbie" type="text">
+                        <option value="boy">boy</option>
+                        <option value="girl">girl</option>
+                    </select>
+                </td>
+            </table>
+
+            <input id="chushengnianyue" name="chushengnianyue" placeholder="year/month" type="text">
+            <input id="QQ" name="QQ" placeholder="QQ" type="text">
+            <input id="youixang" name="youxiang" placeholder="E-mail" type="text">
+            <input id="dianhua" name="dianhua" placeholder="phone" type="text">
+            <input id="shenfenzheng" name="shenfenzheng" placeholder="ID card" type="text">
+            <input id="touxiang" name="touxiang" placeholder="head portrait" type="text">
+            <input name="button" onClick="up('touxiang')" style=" height:19px; border:solid 1px #000000; color:#666666"
+                   type='button' value='upload'/></td>
+            <input id="dizhi" name="dizhi" placeholder="Address" type="text">
+            <input id="beizhu" name="beizhu" placeholder="comment" type="text">
+            <input type="submit" value="login">
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
